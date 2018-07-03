@@ -22,9 +22,7 @@ void	ft_putnbr(int n)
 		ft_putchar('-');
 		nb = -n;
 	}
-	if (nb > 4294967295)
-		ft_putchar('0');
-	else if (nb >= 10)
+	if (nb >= 10)
 	{
 		ft_putnbr(nb / 10);
 		ft_putnbr(nb % 10);

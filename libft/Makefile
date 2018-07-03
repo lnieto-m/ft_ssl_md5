@@ -83,31 +83,6 @@ SRC_NAME = libft/ft_isdigit.c \
 		   libft/ft_lstiter.c \
 		   libft/ft_lstadd.c \
 		   libft/get_next_line.c \
-		   libftprintf/ft_printf.c \
-		   libftprintf/ft_printf_conversion_s.c \
-		   libftprintf/ft_printf_conversion_ls.c \
-		   libftprintf/ft_printf_conversion_c.c \
-		   libftprintf/ft_printf_conversion_lc.c \
-		   libftprintf/ft_printf_conversion_d.c \
-		   libftprintf/ft_printf_conversion_ld.c \
-		   libftprintf/ft_printf_conversion_x.c \
-		   libftprintf/ft_printf_conversion_o.c \
-		   libftprintf/ft_printf_conversion_lo.c \
-		   libftprintf/ft_printf_conversion_u.c \
-		   libftprintf/ft_printf_conversion_lu.c \
-		   libftprintf/ft_printf_conversion_xmaj.c \
-		   libftprintf/ft_printf_conversion_p.c \
-		   libftprintf/ft_printf_flags.c \
-		   libftprintf/ft_printf_percentage.c \
-		   libftprintf/parser.c \
-		   libftprintf/ft_printf_len_modifier.c \
-		   libftprintf/unsigned_check.c\
-		   libftprintf/signed_check.c\
-		   libftprintf/ft_putwchar.c \
-		   libftprintf/ft_putwstr.c \
-		   libftprintf/ft_wstrlen.c \
-		   libftprintf/ft_isconv.c \
-		   libftprintf/ft_printf_no_conv.c \
 
 OBJ_NAME = $(SRC_NAME:.c=.o)
 

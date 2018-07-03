@@ -11,10 +11,10 @@
 # **************************************************************************** #
 
 NAME 		= ft_ssl
-CC 	 		= clang -Wall -Wextra -Werror
+CC 	 		= gcc -Wall -Wextra -Werror
 
 
-LIBS		= -L libft/ -lft
+LIBS		= -L libft/ -lft -lm
 
 SRC  		= main.c \
 			md5.c \
@@ -22,7 +22,7 @@ SRC  		= main.c \
 OBJ  		= $(SRC:%.c=objs/%.o)
 
 
-SRC_DIR 	= ./srcs/
+SRC_DIR 	= ./srcs
 INCLUDE_DIR = -I ./incs/ -I libft/includes
 
 all: objs $(NAME)

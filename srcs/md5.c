@@ -125,7 +125,7 @@ char    *md5(uint32_t *entry, size_t size)
             c = b;
             b = LEFT_ROTATE((a + f + sinus_const[i] + entry[g + j]), rotate_nb[i]) + b;
             a = temp;
-            ft_printf("%x %x %x %x\n", a, b, c, d);
+            printf("%x %x %x %x\n", a, b, c, d);
             i++;
         }
         h0 += a;

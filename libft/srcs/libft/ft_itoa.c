@@ -67,9 +67,7 @@ static char		*fill(long long int n, char *str)
 char			*ft_itoa(long long int n)
 {
 	char	*str;
-	int		i;
-
-	i = 0;
+	
 	if ((-n - 1) == 9223372036854775807)
 		return (ft_strdup("-9223372036854775808"));
 	if (n < 0)

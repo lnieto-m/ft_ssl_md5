@@ -41,13 +41,11 @@ static int		print(t_flags f, t_len lenf, char *nb, long int nbr)
 static int		print_number(char *nb, t_flags f, long int nbr)
 {
 	t_len		lenf;
-	int			i;
 
 	lenf.len = 0;
 	lenf.tmp_len = ft_strlen(nb);
 	if (nbr < 0)
 		lenf.tmp_len -= 1;
-	i = 0;
 	if (((f.plus == 1 || f.space == 1) && nbr > 0) || nbr < 0)
 	{
 		if (nbr < 0)

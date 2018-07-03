@@ -15,7 +15,7 @@
 
 int main(int ac, char **av) {
 	if (ac > 1) {
-		ft_printf("%s\n", md5((uint32_t *)av[1], ft_strlen(av[1])));
+		printf("%s\n", md5((uint32_t *)av[1], ft_strlen(av[1])));
 	}
 	printf("%zu\n", sizeof(uint32_t));
 	return (0);

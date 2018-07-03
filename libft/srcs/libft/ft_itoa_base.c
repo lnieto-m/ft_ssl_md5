@@ -42,9 +42,7 @@ static char		*fill(unsigned long long n, char *str, int base)
 char			*ft_itoa_base(unsigned long long n, int base)
 {
 	char	*str;
-	int		i;
 
-	i = 0;
 	if (!(str = (char *)malloc(sizeof(char) * 256 + 1)))
 		return (NULL);
 	else if (n == 0)
